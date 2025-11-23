@@ -41,7 +41,7 @@ jobs:
           context: .
           push: true
           tags: |
-            echo "IMAGE_NAME=ghcr.io/${{ github.repository_owner | toLowerCase() }}/mywork:latest" >> $GITHUB_ENV
+           echo "IMAGE_NAME=ghcr.io/taotech114627/mywork:latest" >> $GITHUB_ENV
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=http server
